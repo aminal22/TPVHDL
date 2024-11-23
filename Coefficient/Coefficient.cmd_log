@@ -1,0 +1,5 @@
+xst -intstyle ise -ifn "E:/TP_VHDL_2023/Coefficient/Coefficient.xst" -ofn "E:/TP_VHDL_2023/Coefficient/Coefficient.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-5 Coefficient.ngc Coefficient.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Coefficient_map.ncd Coefficient.ngd Coefficient.pcf 
+par -w -intstyle ise -ol high -t 1 Coefficient_map.ncd Coefficient.ncd Coefficient.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Coefficient.twx Coefficient.ncd -o Coefficient.twr Coefficient.pcf 

@@ -1,0 +1,8 @@
+work	"../Coefficient/Coefficient.vhd"
+work	"../CompteurNbits/CompteurNbits.vhd"
+work	"../DivHorloge/DivHorloge.vhd"
+work	"../RegistreNbits/RegistreNbits.vhd"
+work	"../Somateur/Somateur.vhd"
+work	"../Tristate/Tristate.vhd"
+work	"Biblio/Biblio.vhd"
+work	"CNA_Nbits.vhd"

@@ -1,0 +1,5 @@
+xst -intstyle ise -ifn "E:/TP_VHDL_2023/DiviseurHorloge/DiviseurHorloge.xst" -ofn "E:/TP_VHDL_2023/DiviseurHorloge/DiviseurHorloge.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-5 DiviseurHorloge.ngc DiviseurHorloge.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o DiviseurHorloge_map.ncd DiviseurHorloge.ngd DiviseurHorloge.pcf 
+par -w -intstyle ise -ol high -t 1 DiviseurHorloge_map.ncd DiviseurHorloge.ncd DiviseurHorloge.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml DiviseurHorloge.twx DiviseurHorloge.ncd -o DiviseurHorloge.twr DiviseurHorloge.pcf 

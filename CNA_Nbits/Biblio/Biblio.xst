@@ -1,0 +1,5 @@
+set -tmpdir "E:/TP_VHDL_2023/Biblio/xst/projnav.tmp"
+set -xsthdpdir "E:/TP_VHDL_2023/Biblio/xst"
+elaborate
+-ifn Biblio.prj
+-ifmt mixed

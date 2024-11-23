@@ -1,0 +1,5 @@
+xst -intstyle ise -ifn "E:/TP_VHDL_2023/Somateur/Somateur.xst" -ofn "E:/TP_VHDL_2023/Somateur/Somateur.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-5 Somateur.ngc Somateur.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Somateur_map.ncd Somateur.ngd Somateur.pcf 
+par -w -intstyle ise -ol high -t 1 Somateur_map.ncd Somateur.ncd Somateur.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Somateur.twx Somateur.ncd -o Somateur.twr Somateur.pcf 

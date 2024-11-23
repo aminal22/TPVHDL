@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="E:/TP_VHDL_2023/PLL/tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="std_logic_1164" />
+            <top_module name="tb" />
+            <top_module name="textio" />
+            <top_module name="vcomponents" />
+            <top_module name="vital_primitives" />
+            <top_module name="vital_timing" />
+            <top_module name="vpkg" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="7" />
+   <wvobject fp_name="/tb/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/clk2x" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk2x</obj_property>
+      <obj_property name="ObjectShortName">clk2x</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/locked2x" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">locked2x</obj_property>
+      <obj_property name="ObjectShortName">locked2x</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/pll2x" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">pll2x</obj_property>
+      <obj_property name="ObjectShortName">pll2x</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/clk4x" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk4x</obj_property>
+      <obj_property name="ObjectShortName">clk4x</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/locked4x" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">locked4x</obj_property>
+      <obj_property name="ObjectShortName">locked4x</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/pll4x" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">pll4x</obj_property>
+      <obj_property name="ObjectShortName">pll4x</obj_property>
+   </wvobject>
+</wave_config>

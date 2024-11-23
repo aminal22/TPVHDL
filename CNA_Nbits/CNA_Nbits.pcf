@@ -1,0 +1,8 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Thu Mar 09 16:41:40 2023
+//! **************************************************************************
+
+SCHEMATIC START;
+NET "CLK50MHz_BUFGP/IBUFG" BEL "CLK50MHz_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
+SCHEMATIC END;
+

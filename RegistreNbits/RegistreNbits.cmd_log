@@ -1,0 +1,10 @@
+xst -intstyle ise -ifn "E:/TP_VHDL_2023/RegistreNbits/RegistreNbits.xst" -ofn "E:/TP_VHDL_2023/RegistreNbits/RegistreNbits.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-5 RegistreNbits.ngc RegistreNbits.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o RegistreNbits_map.ncd RegistreNbits.ngd RegistreNbits.pcf 
+par -w -intstyle ise -ol high -t 1 RegistreNbits_map.ncd RegistreNbits.ncd RegistreNbits.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RegistreNbits.twx RegistreNbits.ncd -o RegistreNbits.twr RegistreNbits.pcf 
+xst -intstyle ise -ifn "E:/TP_VHDL_2023/RegistreNbits/RegistreNbits.xst" -ofn "E:/TP_VHDL_2023/RegistreNbits/RegistreNbits.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-5 RegistreNbits.ngc RegistreNbits.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o RegistreNbits_map.ncd RegistreNbits.ngd RegistreNbits.pcf 
+par -w -intstyle ise -ol high -t 1 RegistreNbits_map.ncd RegistreNbits.ncd RegistreNbits.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RegistreNbits.twx RegistreNbits.ncd -o RegistreNbits.twr RegistreNbits.pcf 

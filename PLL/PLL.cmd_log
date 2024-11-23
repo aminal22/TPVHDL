@@ -1,0 +1,14 @@
+xst -intstyle ise -ifn "E:/TP_VHDL_2023/PLL/PLL.xst" -ofn "E:/TP_VHDL_2023/PLL/PLL.syr" 
+xst -intstyle ise -ifn "E:/TP_VHDL_2023/PLL/PLL.xst" -ofn "E:/TP_VHDL_2023/PLL/PLL.syr" 
+xst -intstyle ise -ifn "E:/TP_VHDL_2023/PLL/PLL.xst" -ofn "E:/TP_VHDL_2023/PLL/PLL.syr" 
+xst -intstyle ise -ifn "E:/TP_VHDL_2023/PLL/PLL.xst" -ofn "E:/TP_VHDL_2023/PLL/PLL.syr" 
+xst -intstyle ise -ifn "E:/TP_VHDL_2023/PLL/PLL.xst" -ofn "E:/TP_VHDL_2023/PLL/PLL.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-5 PLL.ngc PLL.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o PLL_map.ncd PLL.ngd PLL.pcf 
+par -w -intstyle ise -ol high -t 1 PLL_map.ncd PLL.ncd PLL.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml PLL.twx PLL.ncd -o PLL.twr PLL.pcf 
+xst -intstyle ise -ifn "E:/TP_VHDL_2023/PLL/PLL.xst" -ofn "E:/TP_VHDL_2023/PLL/PLL.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-5 PLL.ngc PLL.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o PLL_map.ncd PLL.ngd PLL.pcf 
+par -w -intstyle ise -ol high -t 1 PLL_map.ncd PLL.ncd PLL.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml PLL.twx PLL.ncd -o PLL.twr PLL.pcf 

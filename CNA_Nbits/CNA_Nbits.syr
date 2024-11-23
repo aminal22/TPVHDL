@@ -1,0 +1,521 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.10 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.10 secs
+ 
+--> Reading design: CNA_Nbits.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "CNA_Nbits.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "CNA_Nbits"
+Output Format                      : NGC
+Target Device                      : xc3s500e-5-fg320
+
+---- Source Options
+Top Module Name                    : CNA_Nbits
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "E:/TP_VHDL_2023/CNA_Nbits/Biblio/Biblio.vhd" in Library work.
+Package <Biblio> compiled.
+Compiling vhdl file "E:/TP_VHDL_2023/DivHorloge/DivHorloge.vhd" in Library work.
+Architecture behavioral of Entity divhorloge is up to date.
+Compiling vhdl file "E:/TP_VHDL_2023/RegistreNbits/RegistreNbits.vhd" in Library work.
+Architecture behavioral of Entity registrenbits is up to date.
+Compiling vhdl file "E:/TP_VHDL_2023/CompteurNbits/CompteurNbits.vhd" in Library work.
+Architecture behavioral of Entity compteurnbits is up to date.
+Compiling vhdl file "E:/TP_VHDL_2023/Tristate/Tristate.vhd" in Library work.
+Architecture behavioral of Entity tristate is up to date.
+Compiling vhdl file "E:/TP_VHDL_2023/Coefficient/Coefficient.vhd" in Library work.
+Architecture behavioral of Entity coefficient is up to date.
+Compiling vhdl file "E:/TP_VHDL_2023/Somateur/Somateur.vhd" in Library work.
+Architecture behavioral of Entity somateur is up to date.
+Compiling vhdl file "E:/TP_VHDL_2023/CNA_Nbits/CNA_Nbits.vhd" in Library work.
+Entity <CNA_Nbits> compiled.
+Entity <CNA_Nbits> (Architecture <Behavioral>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <CNA_Nbits> in library <work> (architecture <Behavioral>) with generics.
+	N = 4
+
+Analyzing hierarchy for entity <DivHorloge> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <RegistreNbits> in library <work> (architecture <behavioral>) with generics.
+	N = 4
+
+Analyzing hierarchy for entity <CompteurNbits> in library <work> (architecture <behavioral>) with generics.
+	N = 4
+
+Analyzing hierarchy for entity <Tristate> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Coefficient> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Somateur> in library <work> (architecture <behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing generic Entity <CNA_Nbits> in library <work> (Architecture <Behavioral>).
+	N = 4
+Entity <CNA_Nbits> analyzed. Unit <CNA_Nbits> generated.
+
+Analyzing Entity <DivHorloge> in library <work> (Architecture <behavioral>).
+Entity <DivHorloge> analyzed. Unit <DivHorloge> generated.
+
+Analyzing generic Entity <RegistreNbits> in library <work> (Architecture <behavioral>).
+	N = 4
+Entity <RegistreNbits> analyzed. Unit <RegistreNbits> generated.
+
+Analyzing generic Entity <CompteurNbits> in library <work> (Architecture <behavioral>).
+	N = 4
+Entity <CompteurNbits> analyzed. Unit <CompteurNbits> generated.
+
+Analyzing Entity <Tristate> in library <work> (Architecture <behavioral>).
+Entity <Tristate> analyzed. Unit <Tristate> generated.
+
+Analyzing Entity <Coefficient> in library <work> (Architecture <behavioral>).
+Entity <Coefficient> analyzed. Unit <Coefficient> generated.
+
+Analyzing Entity <Somateur> in library <work> (Architecture <behavioral>).
+Entity <Somateur> analyzed. Unit <Somateur> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <DivHorloge>.
+    Related source file is "E:/TP_VHDL_2023/DivHorloge/DivHorloge.vhd".
+    Found 5-bit up counter for signal <cpt>.
+    Summary:
+	inferred   1 Counter(s).
+Unit <DivHorloge> synthesized.
+
+
+Synthesizing Unit <RegistreNbits>.
+    Related source file is "E:/TP_VHDL_2023/RegistreNbits/RegistreNbits.vhd".
+    Found 4-bit register for signal <D>.
+    Summary:
+	inferred   4 D-type flip-flop(s).
+Unit <RegistreNbits> synthesized.
+
+
+Synthesizing Unit <CompteurNbits>.
+    Related source file is "E:/TP_VHDL_2023/CompteurNbits/CompteurNbits.vhd".
+    Found 4-bit up counter for signal <tmpQ>.
+    Summary:
+	inferred   1 Counter(s).
+Unit <CompteurNbits> synthesized.
+
+
+Synthesizing Unit <Tristate>.
+    Related source file is "E:/TP_VHDL_2023/Tristate/Tristate.vhd".
+    Found 1-bit tristate buffer for signal <SORTIE>.
+    Summary:
+	inferred   1 Tristate(s).
+Unit <Tristate> synthesized.
+
+
+Synthesizing Unit <Coefficient>.
+    Related source file is "E:/TP_VHDL_2023/Coefficient/Coefficient.vhd".
+Unit <Coefficient> synthesized.
+
+
+Synthesizing Unit <Somateur>.
+    Related source file is "E:/TP_VHDL_2023/Somateur/Somateur.vhd".
+Unit <Somateur> synthesized.
+
+
+Synthesizing Unit <CNA_Nbits>.
+    Related source file is "E:/TP_VHDL_2023/CNA_Nbits/CNA_Nbits.vhd".
+WARNING:Xst:646 - Signal <LesQout<0>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+Unit <CNA_Nbits> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Counters                                             : 2
+ 4-bit up counter                                      : 1
+ 5-bit up counter                                      : 1
+# Registers                                            : 1
+ 4-bit register                                        : 1
+# Tristates                                            : 1
+ 1-bit tristate buffer                                 : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Counters                                             : 2
+ 4-bit up counter                                      : 1
+ 5-bit up counter                                      : 1
+# Registers                                            : 4
+ Flip-Flops                                            : 4
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <CNA_Nbits> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block CNA_Nbits, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 13
+ Flip-Flops                                            : 13
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : CNA_Nbits.ngr
+Top Level Output File Name         : CNA_Nbits
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 8
+
+Cell Usage :
+# BELS                             : 15
+#      INV                         : 3
+#      LUT2                        : 2
+#      LUT3                        : 3
+#      LUT3_L                      : 1
+#      LUT4                        : 5
+#      MUXF5                       : 1
+# FlipFlops/Latches                : 13
+#      FD_1                        : 4
+#      FDC                         : 9
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 7
+#      IBUF                        : 6
+#      OBUFT                       : 1
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500efg320-5 
+
+ Number of Slices:                        9  out of   4656     0%  
+ Number of Slice Flip Flops:              9  out of   9312     0%  
+ Number of 4 input LUTs:                 14  out of   9312     0%  
+ Number of IOs:                           8
+ Number of bonded IOBs:                   8  out of    232     3%  
+    IOB Flip Flops:                       4
+ Number of GCLKs:                         1  out of     24     4%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+-------------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)         | Load  |
+-----------------------------------+-------------------------------+-------+
+CopyCompteurNbits/tmpQ_3           | NONE(CopyRegistreNbits/D_3)   | 4     |
+CLK50MHz                           | BUFGP                         | 5     |
+CopyDivHorloge/cpt_4               | NONE(CopyCompteurNbits/tmpQ_0)| 4     |
+-----------------------------------+-------------------------------+-------+
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------+------------------------+-------+
+Control Signal                     | Buffer(FF name)        | Load  |
+-----------------------------------+------------------------+-------+
+RESET                              | IBUF                   | 9     |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 2.739ns (Maximum Frequency: 365.050MHz)
+   Minimum input arrival time before clock: 1.731ns
+   Maximum output required time after clock: 6.301ns
+   Maximum combinational path delay: 5.601ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'CLK50MHz'
+  Clock period: 2.739ns (frequency: 365.050MHz)
+  Total number of paths / destination ports: 15 / 5
+-------------------------------------------------------------------------
+Delay:               2.739ns (Levels of Logic = 2)
+  Source:            CopyDivHorloge/cpt_2 (FF)
+  Destination:       CopyDivHorloge/cpt_4 (FF)
+  Source Clock:      CLK50MHz rising
+  Destination Clock: CLK50MHz rising
+
+  Data Path: CopyDivHorloge/cpt_2 to CopyDivHorloge/cpt_4
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              3   0.514   0.603  CopyDivHorloge/cpt_2 (CopyDivHorloge/cpt_2)
+     LUT3_L:I0->LO         1   0.612   0.130  CopyDivHorloge/Mcount_cpt_cy<2>11 (CopyDivHorloge/Mcount_cpt_cy<2>)
+     LUT3:I2->O            1   0.612   0.000  CopyDivHorloge/Mcount_cpt_xor<4>11 (Result<4>)
+     FDC:D                     0.268          CopyDivHorloge/cpt_4
+    ----------------------------------------
+    Total                      2.739ns (2.006ns logic, 0.733ns route)
+                                       (73.2% logic, 26.8% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'CopyDivHorloge/cpt_4'
+  Clock period: 2.289ns (frequency: 436.862MHz)
+  Total number of paths / destination ports: 10 / 4
+-------------------------------------------------------------------------
+Delay:               2.289ns (Levels of Logic = 1)
+  Source:            CopyCompteurNbits/tmpQ_0 (FF)
+  Destination:       CopyCompteurNbits/tmpQ_0 (FF)
+  Source Clock:      CopyDivHorloge/cpt_4 rising
+  Destination Clock: CopyDivHorloge/cpt_4 rising
+
+  Data Path: CopyCompteurNbits/tmpQ_0 to CopyCompteurNbits/tmpQ_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              5   0.514   0.538  CopyCompteurNbits/tmpQ_0 (CopyCompteurNbits/tmpQ_0)
+     INV:I->O              1   0.612   0.357  CopyCompteurNbits/Mcount_tmpQ_xor<0>11_INV_0 (Result<0>1)
+     FDC:D                     0.268          CopyCompteurNbits/tmpQ_0
+    ----------------------------------------
+    Total                      2.289ns (1.394ns logic, 0.895ns route)
+                                       (60.9% logic, 39.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'CopyCompteurNbits/tmpQ_3'
+  Total number of paths / destination ports: 4 / 4
+-------------------------------------------------------------------------
+Offset:              1.731ns (Levels of Logic = 1)
+  Source:            B<3> (PAD)
+  Destination:       CopyRegistreNbits/D_3 (FF)
+  Destination Clock: CopyCompteurNbits/tmpQ_3 falling
+
+  Data Path: B<3> to CopyRegistreNbits/D_3
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   1.106   0.357  B_3_IBUF (B_3_IBUF)
+     FD_1:D                    0.268          CopyRegistreNbits/D_3
+    ----------------------------------------
+    Total                      1.731ns (1.374ns logic, 0.357ns route)
+                                       (79.4% logic, 20.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'CopyDivHorloge/cpt_4'
+  Total number of paths / destination ports: 6 / 1
+-------------------------------------------------------------------------
+Offset:              6.301ns (Levels of Logic = 3)
+  Source:            CopyCompteurNbits/tmpQ_1 (FF)
+  Destination:       SORTIE (PAD)
+  Source Clock:      CopyDivHorloge/cpt_4 rising
+
+  Data Path: CopyCompteurNbits/tmpQ_1 to SORTIE
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              4   0.514   0.651  CopyCompteurNbits/tmpQ_1 (CopyCompteurNbits/tmpQ_1)
+     LUT4:I0->O            1   0.612   0.357  Boucle[0].LesSomateurs/LesSout_or000034_SW0 (N2)
+     MUXF5:S->O            1   0.641   0.357  Boucle[0].LesSomateurs/LesSout_or000042_f5 (Boucle[0].LesSomateurs/LesSout_or0000)
+     OBUFT:I->O                3.169          SORTIE_OBUFT (SORTIE)
+    ----------------------------------------
+    Total                      6.301ns (4.936ns logic, 1.365ns route)
+                                       (78.3% logic, 21.7% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'CopyCompteurNbits/tmpQ_3'
+  Total number of paths / destination ports: 6 / 1
+-------------------------------------------------------------------------
+Offset:              6.076ns (Levels of Logic = 3)
+  Source:            CopyRegistreNbits/D_0 (FF)
+  Destination:       SORTIE (PAD)
+  Source Clock:      CopyCompteurNbits/tmpQ_3 falling
+
+  Data Path: CopyRegistreNbits/D_0 to SORTIE
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD_1:C->Q             1   0.514   0.426  CopyRegistreNbits/D_0 (CopyRegistreNbits/D_0)
+     LUT4:I1->O            1   0.612   0.357  Boucle[0].LesSomateurs/LesSout_or000034_SW0 (N2)
+     MUXF5:S->O            1   0.641   0.357  Boucle[0].LesSomateurs/LesSout_or000042_f5 (Boucle[0].LesSomateurs/LesSout_or0000)
+     OBUFT:I->O                3.169          SORTIE_OBUFT (SORTIE)
+    ----------------------------------------
+    Total                      6.076ns (4.936ns logic, 1.140ns route)
+                                       (81.2% logic, 18.8% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Delay:               5.601ns (Levels of Logic = 3)
+  Source:            Enable (PAD)
+  Destination:       SORTIE (PAD)
+
+  Data Path: Enable to SORTIE
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   1.106   0.357  Enable_IBUF (Enable_IBUF)
+     INV:I->O              1   0.612   0.357  CopyTristate/Enable_inv1_INV_0 (CopyTristate/Enable_inv)
+     OBUFT:T->O                3.169          SORTIE_OBUFT (SORTIE)
+    ----------------------------------------
+    Total                      5.601ns (4.887ns logic, 0.714ns route)
+                                       (87.3% logic, 12.7% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 4.00 secs
+Total CPU time to Xst completion: 3.95 secs
+ 
+--> 
+
+Total memory usage is 4513808 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+

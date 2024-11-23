@@ -1,0 +1,385 @@
+m255
+K4
+z2
+!s11e vcom 2020.4 2020.10, Oct 13 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/TP_VHDL_2023/CNA_Nbits
+T_opt
+!s110 1678377727
+VAGJ^T1UIGCl4i0U^?BfNf0
+04 2 8 work tb behavior 1
+=1-d89ef32dfa2e-640a02ff-c3-a60
+o-quiet -auto_acc_if_foreign -work work +acc
+tCvgOpt 0
+n@_opt
+OL;O;2020.4;71
+R0
+Pbiblio
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 24
+w1678373721
+R0
+8Biblio/Biblio.vhd
+FBiblio/Biblio.vhd
+l0
+L4 1
+VjlUe^g5b>]3lJnkQd>UPK1
+!s100 1ZIbT;mgiPnJT2BFL<P:z1
+Z3 OL;C;2020.4;71
+31
+Z4 !s110 1678377866
+!i10b 1
+Z5 !s108 1678377866.000000
+!s90 -reportprogress|300|-explicit|-93|Biblio/Biblio.vhd|
+!s107 Biblio/Biblio.vhd|
+!i113 0
+Z6 o-explicit -93
+Z7 tExplicit 1 CvgOpt 0
+Ecna_nbits
+Z8 w1678376156
+Z9 DPx4 work 6 biblio 0 22 jlUe^g5b>]3lJnkQd>UPK1
+Z10 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z11 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+R1
+R2
+!i122 25
+R0
+Z12 8CNA_Nbits.vhd
+Z13 FCNA_Nbits.vhd
+l0
+L7 1
+VHP:M_5Q^eUOgCS]OAga_T1
+!s100 fG263Z3cU_[P7B8f?`fab1
+R3
+31
+Z14 !s110 1678377867
+!i10b 1
+R5
+Z15 !s90 -reportprogress|300|-explicit|-93|CNA_Nbits.vhd|
+Z16 !s107 CNA_Nbits.vhd|
+!i113 0
+R6
+R7
+Abehavioral
+R9
+R10
+R11
+R1
+R2
+DEx4 work 9 cna_nbits 0 22 HP:M_5Q^eUOgCS]OAga_T1
+!i122 25
+l18
+L13 27
+VYAmFe6cU0oHS1NVg[[JIZ2
+!s100 m8:7FhbUT6YFLzEOJ<VTR3
+R3
+31
+R14
+!i10b 1
+R5
+R15
+R16
+!i113 0
+R6
+R7
+Ecoefficient
+Z17 w1678370551
+R1
+R2
+!i122 23
+R0
+Z18 8../Coefficient/Coefficient.vhd
+Z19 F../Coefficient/Coefficient.vhd
+l0
+L4 1
+VzQC4Y<2Wa0mWo64BVQ=7F3
+!s100 jSPO9mh`?GYXGbhdPF9N13
+R3
+31
+R4
+!i10b 1
+R5
+Z20 !s90 -reportprogress|300|-explicit|-93|../Coefficient/Coefficient.vhd|
+Z21 !s107 ../Coefficient/Coefficient.vhd|
+!i113 0
+R6
+R7
+Abehavioral
+R1
+R2
+DEx4 work 11 coefficient 0 22 zQC4Y<2Wa0mWo64BVQ=7F3
+!i122 23
+l11
+L9 8
+V0mKdHCkWVfWKEP`zQVaI52
+!s100 UKZkTe0BIMnVU[4Kib6TL3
+R3
+31
+R4
+!i10b 1
+R5
+R20
+R21
+!i113 0
+R6
+R7
+Ecompteurnbits
+Z22 w1678369981
+R10
+R11
+R1
+R2
+!i122 22
+R0
+Z23 8../CompteurNbits/CompteurNbits.vhd
+Z24 F../CompteurNbits/CompteurNbits.vhd
+l0
+L6 1
+V70zhW?BKkc_FkG<N:N24^3
+!s100 e6>h<ZGdML6mHW=mTNRZ;0
+R3
+31
+R4
+!i10b 1
+R5
+Z25 !s90 -reportprogress|300|-explicit|-93|../CompteurNbits/CompteurNbits.vhd|
+Z26 !s107 ../CompteurNbits/CompteurNbits.vhd|
+!i113 0
+R6
+R7
+Abehavioral
+R10
+R11
+R1
+R2
+DEx4 work 13 compteurnbits 0 22 70zhW?BKkc_FkG<N:N24^3
+!i122 22
+l13
+Z27 L11 14
+V>[9z8LCGe1GHSN:^BQjW62
+!s100 T9n5fZk;OR7]:3H;V2PZ`3
+R3
+31
+R4
+!i10b 1
+R5
+R25
+R26
+!i113 0
+R6
+R7
+Edivhorloge
+Z28 w1678369495
+R10
+R11
+R1
+R2
+!i122 21
+R0
+Z29 8../DivHorloge/DivHorloge.vhd
+Z30 F../DivHorloge/DivHorloge.vhd
+l0
+L6 1
+VT26_Eh<3be`NR6b@3]8N^0
+!s100 22l?6I9R[j2:fz[NXEK?H3
+R3
+31
+R4
+!i10b 1
+R5
+Z31 !s90 -reportprogress|300|-explicit|-93|../DivHorloge/DivHorloge.vhd|
+Z32 !s107 ../DivHorloge/DivHorloge.vhd|
+!i113 0
+R6
+R7
+Abehavioral
+R10
+R11
+R1
+R2
+DEx4 work 10 divhorloge 0 22 T26_Eh<3be`NR6b@3]8N^0
+!i122 21
+l13
+R27
+V<7BZPTKiGkGZJT0og=[8R3
+!s100 Z4fHbkIKJLaERZ54mgBK20
+R3
+31
+R4
+!i10b 1
+R5
+R31
+R32
+!i113 0
+R6
+R7
+Eregistrenbits
+Z33 w1678373058
+R1
+R2
+!i122 20
+R0
+Z34 8../RegistreNbits/RegistreNbits.vhd
+Z35 F../RegistreNbits/RegistreNbits.vhd
+l0
+L4 1
+V=eJM0GbdOH];zP>eNnjHM2
+!s100 W0Bzm2:3gV8N9TQ@FK>Ri0
+R3
+31
+R4
+!i10b 1
+R5
+Z36 !s90 -reportprogress|300|-explicit|-93|../RegistreNbits/RegistreNbits.vhd|
+Z37 !s107 ../RegistreNbits/RegistreNbits.vhd|
+!i113 0
+R6
+R7
+Abehavioral
+R1
+R2
+DEx4 work 13 registrenbits 0 22 =eJM0GbdOH];zP>eNnjHM2
+!i122 20
+l12
+L10 11
+VQHo74CM=8I]h2CH`@ez3U1
+!s100 De;fkJ8KFe`5XXfQd20lR1
+R3
+31
+R4
+!i10b 1
+R5
+R36
+R37
+!i113 0
+R6
+R7
+Esomateur
+Z38 w1678370794
+R1
+R2
+!i122 19
+R0
+Z39 8../Somateur/Somateur.vhd
+Z40 F../Somateur/Somateur.vhd
+l0
+L4 1
+VZTn;Q4b`Y]Z:44WckEga?0
+!s100 OE:jVRz[b1kig686be_gR0
+R3
+31
+R4
+!i10b 1
+R5
+Z41 !s90 -reportprogress|300|-explicit|-93|../Somateur/Somateur.vhd|
+Z42 !s107 ../Somateur/Somateur.vhd|
+!i113 0
+R6
+R7
+Abehavioral
+R1
+R2
+DEx4 work 8 somateur 0 22 ZTn;Q4b`Y]Z:44WckEga?0
+!i122 19
+l11
+L9 7
+V7Bbj^S5a`9QSlS;GiSNDD3
+!s100 ;gIKmTI:z0>?MM>Xb1X?G1
+R3
+31
+R4
+!i10b 1
+R5
+R41
+R42
+!i113 0
+R6
+R7
+Etb
+Z43 w1678377712
+R1
+R2
+!i122 26
+R0
+Z44 8tb.vhd
+Z45 Ftb.vhd
+l0
+L35 1
+V_jhGXE:?cYYaoMgWSBMeH3
+!s100 d@<Sid9DFK]H<fYBHcC_`0
+R3
+31
+R14
+!i10b 1
+Z46 !s108 1678377867.000000
+Z47 !s90 -reportprogress|300|-explicit|-93|tb.vhd|
+Z48 !s107 tb.vhd|
+!i113 0
+R6
+R7
+Abehavior
+R1
+R2
+Z49 DEx4 work 2 tb 0 22 _jhGXE:?cYYaoMgWSBMeH3
+!i122 26
+l65
+Z50 L38 63
+Z51 V:Z^0SD=lYXe2WHdWaG7>B1
+Z52 !s100 3nI4`XNd_Mnbb?G<T1V_a3
+R3
+31
+R14
+!i10b 1
+R46
+R47
+R48
+!i113 0
+R6
+R7
+Etristate
+Z53 w1678371579
+R1
+R2
+!i122 18
+R0
+Z54 8../Tristate/Tristate.vhd
+Z55 F../Tristate/Tristate.vhd
+l0
+L4 1
+VQ0X[IgkL2;];M23;F>;bZ3
+!s100 @CbZI8CMJDomNgE1J0Gz@2
+R3
+31
+R4
+!i10b 1
+R5
+Z56 !s90 -reportprogress|300|-explicit|-93|../Tristate/Tristate.vhd|
+Z57 !s107 ../Tristate/Tristate.vhd|
+!i113 0
+R6
+R7
+Abehavioral
+R1
+R2
+DEx4 work 8 tristate 0 22 Q0X[IgkL2;];M23;F>;bZ3
+!i122 18
+l11
+L9 8
+Vk2H5d[bKGYh@:0?J6OKSJ1
+!s100 Pa0USFUS5aAR8WceNCkPY0
+R3
+31
+R4
+!i10b 1
+R5
+R56
+R57
+!i113 0
+R6
+R7

@@ -1,0 +1,8 @@
+vhdl work "../Tristate/Tristate.vhd"
+vhdl work "../Somateur/Somateur.vhd"
+vhdl work "../RegistreNbits/RegistreNbits.vhd"
+vhdl work "../DivHorloge/DivHorloge.vhd"
+vhdl work "../CompteurNbits/CompteurNbits.vhd"
+vhdl work "../Coefficient/Coefficient.vhd"
+vhdl work "Biblio/Biblio.vhd"
+vhdl work "CNA_Nbits.vhd"

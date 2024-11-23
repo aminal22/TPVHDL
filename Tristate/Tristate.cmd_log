@@ -1,0 +1,5 @@
+xst -intstyle ise -ifn "E:/TP_VHDL_2023/Tristate/Tristate.xst" -ofn "E:/TP_VHDL_2023/Tristate/Tristate.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-5 Tristate.ngc Tristate.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Tristate_map.ncd Tristate.ngd Tristate.pcf 
+par -w -intstyle ise -ol high -t 1 Tristate_map.ncd Tristate.ncd Tristate.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Tristate.twx Tristate.ncd -o Tristate.twr Tristate.pcf 

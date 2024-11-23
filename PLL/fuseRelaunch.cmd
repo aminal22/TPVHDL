@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "E:/TP_VHDL_2023/PLL/tb_isim_beh.exe" -prj "E:/TP_VHDL_2023/PLL/tb_beh.prj" "work.tb" 
